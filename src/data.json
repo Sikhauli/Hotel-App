@@ -1,0 +1,230 @@
+{
+
+    "deluxe":[
+        {
+
+            "roomId": 1,
+            "Qty": "1",
+            "name": "Deluxe",
+            "price": 2300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 2,
+            "Qty": "1",
+            "name": "Deluxe",
+            "price": 2100,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 3,
+            "Qty": "2",
+            "name": "Deluxe",
+            "price": 4300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 4,
+            "Qty": "2",
+            "name": "Deluxe",
+            "price": 5300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 5,
+            "Qty": "1",
+            "name": "Deluxe",
+            "price": 6000,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 6,
+            "Qty": "2",
+            "name": "Deluxe",
+            "price": 7300,
+            "vat": 0.15
+
+        }
+    ],
+
+    "family":[
+        {
+
+            "roomId": 1,
+            "Qty": "2",
+            "name": "Family",
+            "price": 4300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 2,
+            "Qty": "1",
+            "name": "Family",
+            "price": 9100,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 3,
+            "Qty": "2",
+            "name": "Family",
+            "price": 10300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 4,
+            "Qty": "1",
+            "name": "Family",
+            "price": 8300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 5,
+            "Qty": "2",
+            "name": "Family",
+            "price":12000,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 6,
+            "Qty": "2",
+            "name": "Family",
+            "price": 10400,
+            "vat": 0.15
+
+        }
+    ],
+
+    "single":[
+        {
+
+            "roomId": 1,
+            "Qty": "2",
+            "name": "Single",
+            "price": 4300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 2,
+            "Qty": "1",
+            "name": "Single",
+            "price": 9100,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 3,
+            "Qty": "2",
+            "name": "Single",
+            "price": 10300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 4,
+            "Qty": "1",
+            "name": "Single",
+            "price": 8300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 5,
+            "Qty": "2",
+            "name": "Single",
+            "price":12000,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 6,
+            "Qty": "2",
+            "name": "Single",
+            "price": 10400,
+            "vat": 0.15
+
+        }
+    ],
+
+    "luxury":[
+        {
+
+            "roomId": 1,
+            "Qty": "2",
+            "name": "Luxury",
+            "price": 14300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 2,
+            "Qty": "1",
+            "name": "Luxury",
+            "price": 11100,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 3,
+            "Qty": "2",
+            "name": "Luxury",
+            "price": 7300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 4,
+            "Qty": "1",
+            "name": "Luxury",
+            "price": 18300,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 5,
+            "Qty": "2",
+            "name": "Luxury",
+            "price":14000,
+            "vat": 0.15
+
+        },
+        {
+
+            "roomId": 6,
+            "Qty": "2",
+            "name": "Luxury",
+            "price": 15400,
+            "vat": 0.15
+
+        }
+    ]
+}

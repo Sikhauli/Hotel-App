@@ -1,0 +1,293 @@
+*{
+    background-color: whitesmoke;
+}
+
+.left-container button:hover{
+
+    text-transform: uppercase;
+
+}
+
+
+ h2{
+    margin-top: 2vh;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+
+.search-container{
+    width: 100vw;
+    height: 10vh;
+    background-color: #719ECE;
+}
+
+.search-container input{
+    height: 5vh;
+    width: 19.7vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    font-size:1.3em; 
+    font-family:"Ubuntu Light","Ubuntu","Ubuntu Mono","Segoe Print","Segoe UI";
+    color:rgb(0, 0, 0); 
+    border:solid 1px #ccc; 
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;  
+
+}
+
+input:focus { 
+    /* outline: none !important; */
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.search-container img{
+    height: 10vh;
+    width: 5vw;
+    float: right;
+    margin-right: 2vw;
+    border-radius: 25px;
+    margin-top: .3vh;
+    margin-bottom: 5vh;
+}
+
+.user-profile{
+
+    margin-top: 4vh;
+    float:right;
+    margin-right: 2vh;
+    background-color: transparent;
+    text-transform: capitalize;
+
+}
+
+.det-container{
+
+    background-color: #719ECE;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    
+}
+
+.left-container{
+
+    margin-left: 2vw;
+    height: 60vh;
+    width: 20vw;
+    margin-top: 2vh;
+    float: left;
+}
+
+.center-container{
+
+    background-image: url('../images/pool2.jpeg');
+    background-size: cover;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 60vh;
+    width: 54vw;
+    margin-top: 2vh;
+    background-color: white;
+    float: left;
+    
+}
+
+.center-container h4{
+
+    color: #213953;
+
+}
+
+.right-container{
+
+    margin-right: 2vw;
+    height: 60vh;
+    width: 20vw;
+    margin-top: 2vh;
+    float: left;
+}
+
+.right-container h3{
+    background-color: transparent;
+}
+
+.left-container img{
+
+    height: 10vh;
+    width: 7vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    border-radius: 25px;
+    margin-bottom: 2vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.left-container button{
+
+    height: 7vh;
+    width: 15vw;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+    background: transparent;
+    border: 2px solid #719ECE;
+
+}
+
+.rooms{
+
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 26vh;
+    width: 25vw;
+    margin-top: 2.5vh;
+    margin-right: 1.3vw;
+
+}
+
+.room-details-container{
+    background-color: transparent;
+}
+
+.booked{
+    width: 8vw;
+    height: 6vh;
+    background-color: transparent;
+}
+.checked{
+    width: 8vw;
+    height: 6vh;
+    background-color: transparent
+}
+.avail{
+    width: 8vw;
+    height: 6vh;
+    background-color: transparent;
+}
+
+.client-info-container{
+
+    height: 10vh;
+    margin-left: 1%;
+    width: 96%;
+    border-radius: 10px;
+    border: 2px solid #719ECE;
+    background: transparent;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ } 
+
+ .first-card-line{
+    height: 5vh;
+    width: 100;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+
+ }
+
+ .names{
+    float: left;
+    background-color: transparent;
+ }
+
+ .date{
+    background-color: transparent;
+    float: right;
+
+ }
+
+ .second-card-line{
+    height: 5vh;
+    width: 100;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    
+ } 
+
+ .type{
+
+    float: left;
+    background-color: transparent;
+
+ }
+
+ .guest-number{
+
+    float: left;
+    background-color: transparent;
+    margin-left: .5vw;
+ }
+
+ .payment{
+
+    float: right;
+    background-color: transparent;
+ }
+
+ .bottom{
+
+    height: 30vh;
+    width: 100vw;
+    margin-top: 70vh;
+    color: rgb(15, 15, 14);
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    background-color: #719ECE;
+    background-size: cover;
+ }
+
+.detail-container{
+
+    background-color: transparent;
+
+}
+
+ .first{
+
+    height: 5vh;
+    width: 10vw;
+    margin-left: 2.2vw;
+    background-color: transparent;
+ }
+.first:hover{
+
+    background-color: #213953;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+ .second{
+
+    height: 5vh;
+    width: 10vw;
+    margin-left: 2.2vw;
+    background-color: transparent;
+ }
+
+ .second:hover{
+
+    background-color: #213953;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+
+}

@@ -1,0 +1,305 @@
+
+*{
+    overflow-x: hidden;
+}
+.cont{
+
+   background-image: url('../images/landscape.jpg'); 
+   background-size: cover;
+   width: 100vw;
+   height: 40vh;
+   background-position: center bottom;
+   /* position:absolute; */
+   clip:rect(0,173px,173px,0);
+}
+
+.cont img{
+    height: 15vh;
+    width: 5vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    border-radius: 50px;
+    background-color:transparent;
+
+}
+
+.cont nav{
+        margin-top: -11.2%;
+        margin-right: 10%;
+        background-color: transparent;
+        float: right;
+        margin-bottom: 20vh;
+
+}
+
+.cont nav a{
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;  
+
+}
+
+.btn-logout{
+    margin-top: -23.6%;
+    margin-left: 90%;
+    background-color: transparent;
+    color: green;
+}
+.btn-logout .this{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 60%;
+}
+
+.links{
+    
+    background-color:red;
+}
+
+.links a{
+    background-color: transparent;
+}
+
+/* 
+.home{
+   color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   
+   
+}
+.rms{
+    color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   margin-left: 2vw;
+}
+.about{
+    color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   margin-left: 2vw;
+}
+.feat{
+    color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   margin-left: 2vw;
+} */
+.cont img{
+    width: 15vw;
+    height: 20vh;
+    margin-right: 80vw;
+    padding-top: 20px;
+ }
+/* 
+ .contacts{
+    color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   margin-left: 2vw;
+} */
+.form{
+    margin:0;
+    border-top: 1px solid black;
+}
+.rooms{
+    width: 100vw;
+    height: 50vh;
+    align-content: center;
+    overflow-y: hidden;
+}
+.rooms h2{
+  color:brown;
+  font-size: 35px; 
+  text-align: center;
+  
+}
+.img{ 
+    align-items: center;
+    display: flex;
+    margin-left: 7vw;
+    height: 30vh;
+}
+.luxury{
+    /* margin-right: 65vw; */
+    margin-right: 2vw;
+
+}
+.luxury img{
+    width: 20vw;
+    height:20vh;
+    border-radius: 20px;
+    
+}
+.deluxe{
+    /* margin-left: -60vw; */
+    margin-right: 2vw;
+
+    /*margin-top: -35vh;*/
+}
+.deluxe img{
+    width:20vw;
+    height:20vh;
+    border-radius: 20px;
+    
+
+}
+.single{
+    /* margin-left: 5vw; */
+    /*margin-top: -35vh;*/
+    margin-right: 2vw;
+
+}
+.single img{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+
+}
+.family{
+    /* margin-left: 5vw; */
+    /* margin-right: 2vw; */
+
+}
+.family img{
+    width:20vw;
+    height: 20vh;
+    border-radius: 20px;
+}
+.msg{
+    background-color: transparent;
+}
+.msg p{
+    background: transparent;
+    color:aqua;
+    font-size: 18px;
+    margin-top: 15vh;
+}
+.about-cont{
+    margin-top: 10vh;
+}
+
+.about-cont h2{
+    margin-right: 15vw;
+}
+
+.info{
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+.info img{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+}
+.info p{
+    margin-left: 40px;
+    margin-top: 18vh;
+    font-style: italic;
+    font-size: 20px;
+}
+.about-cont h2{
+    color: brown;
+    margin-left: 60vh;
+    font-size: 35px;
+    margin-bottom: -20vh;
+}
+.features-cont .logos{
+    display: flex;
+    margin-left: 13vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10vw;
+}
+.features-cont h2{
+    color:brown;
+    font-size: 35px;   
+}
+.soccer img{
+    width: 7vw;
+    height: 14vh;
+}
+.pool img{
+    width: 17vw;
+    height: 20vh;
+    margin-top:10px;
+}
+.pool h4{
+    margin-bottom: 10vh;
+}
+.gym img{
+    width: 10vw;
+    height: 14vh;
+    
+}
+.bar img{
+    width: 10vw;
+    height: 14vh;
+    margin-left: 25px;
+}
+.hike img{
+    width: 10vw;
+    height: 15vh;
+    margin-left: 25px; 
+}
+.footer{
+    background-color: antiquewhite;
+    display: flex;
+    width: 100vw;
+}
+.footer-cont{
+    display: flex;
+    width: 100vw;
+    background-color: transparent;
+    
+}
+
+.activities{
+    margin-left: 20vw;
+    font-style: italic;
+    background-color: transparent;
+}
+.activities p{
+    background-color: transparent;
+}
+.services{
+    margin-left: 20vw;
+    font-style: italic;
+    background-color: transparent;
+}
+.services p{
+    background-color: transparent;
+}
+.cont-services{
+    margin-left: 20vw;
+    font-style: italic; 
+    background-color: transparent;
+}
+
+.cont-services p{
+    background-color: transparent;
+}
+.bottom-footer{
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+
+}
+
+.footer-icons{
+    margin-top: 20px;
+}
+.footer-icons img{
+    width: 1vw;
+    padding-left: 1vw;
+}
+.copyright{
+   font-size: 8px;
+   margin-left: 12px;
+}
+
