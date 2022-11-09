@@ -23,24 +23,27 @@ function Login(){
 
     return(
         <div >
+           <div className='log-in-container'>
 
             <h1>Login</h1>
 
-            <input type="email" placeholder="Please Enter your email" onChange={(e)=>setEmail(e.target.value)}/><br></br>
-            <input type="email" placeholder="Please Enter your Password" onChange={(e)=>setPassword(e.target.value)}/><br></br>
+            <input type="email" placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/><br></br>
+            <input type="email" placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/><br></br>
 
             <button style={{width: '150px', height: '30px'}} onClick={login}>Login</button><br></br><br></br>
-
+            <div className="forgot">
             <span>Forgot password? </span>
             <span>
                 <Link to="/forgotPass">Click here</Link>
             </span>
-            <br></br>
+            </div>
+            <div className="no-account">
             <span>Don't have account? </span>
             <span>
                 <Link to="/signup">Sign Up</Link>
             </span>
-
+            </div>
+          </div>
         </div>
     )
 

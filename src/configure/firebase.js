@@ -3,13 +3,13 @@ import {getAuth} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCxKBEUfqJeiWjcm0RT2098OW2rjBA-ek0",
-  authDomain: "hotel-app-85b76.firebaseapp.com",
-  projectId: "hotel-app-85b76",
-  storageBucket: "hotel-app-85b76.appspot.com",
-  messagingSenderId: "427987272149",
-  appId: "1:427987272149:web:cd80109edb258622abfd5c",
-  measurementId: "G-VGZS9EPXSD"
+  apiKey: "AIzaSyCpUz4rZ5XEVA-TCC_56Tibbq5hbsUwhfA",
+  authDomain: "hotel-app-8a34d.firebaseapp.com",
+  projectId: "hotel-app-8a34d",
+  storageBucket: "hotel-app-8a34d.appspot.com",
+  messagingSenderId: "847029942101",
+  appId: "1:847029942101:web:ab211ed9f6d2696896a1dc"
+
   };
 
 const app = initializeApp(firebaseConfig);

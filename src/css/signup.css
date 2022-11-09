@@ -1,0 +1,44 @@
+*{
+
+    padding : 0;
+    margin: 0;
+
+}
+
+.sign-up-container{
+    width: 60vw;
+    height: 80vh;
+    background-color: #ccc;
+    overflow-y: hidden;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    border-radius: 20px;
+
+}
+
+.sign-up-container h1{
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+    background-color: #ccc;
+}
+
+.sign-up-container input{
+    height: 8vh;
+    width: 30vw;
+    padding-left: 4vw;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin-bottom: 1vh;
+
+
+
+}
+.sign-up-container button{
+    margin-top: 1vh;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.sign-up-container span{
+    margin-top: 2vh;
+}
